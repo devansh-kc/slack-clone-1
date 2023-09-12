@@ -23,7 +23,8 @@ function Login() {
         <img src={SlackLogo} alt="" />
         <h1>Log in to slack clone</h1>
         <p>slack-clone.slack.com</p>
-        <Button onClick={login}>Log in with Google</Button>
+{/*         there should be "button" instead of "Button" because it is giving error */}
+        <button onClick={login}>Log in with Google</button>
       </div>
     </div>
   );
