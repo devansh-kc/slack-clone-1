@@ -1,4 +1,8 @@
-import firebase from "firebase";
+import firebase from "firebase/compat/app";
+import "firebase/compat/auth";
+import "firebase/compat/firestore";
+
+
 const firebaseConfig = {
   apiKey: "AIzaSyCln46M8XMjvr36V2bdmkQQrTBFYGONHsw",
   authDomain: "slack-clone-2c98a.firebaseapp.com",
